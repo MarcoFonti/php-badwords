@@ -4,7 +4,9 @@ $text = $_GET['text'];
 
 $text_length = strlen($text);
 
-var_dump($text_length)
+$text_censored = str_replace('ciao', '***', $text);
+
+var_dump($text_censored);
 
 ?>
 
@@ -18,5 +20,6 @@ var_dump($text_length)
 <body>
     <p>Hai scritto: <?= $text ?></p>
     <p>Lunghezza testo: <?= $text_length ?></p>
+    <p>testo censurato: <?= $text_censored ?></p>
 </body>
 </html>
