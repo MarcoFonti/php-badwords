@@ -20,6 +20,6 @@ var_dump($text_censored);
 <body>
     <p>Hai scritto: <?= $text ?></p>
     <p>Lunghezza testo: <?= $text_length ?></p>
-    <p>testo censurato: <?= $text_censored ?></p>
+    <p>Testo censurato: <?= $text_censored ?></p>
 </body>
 </html>
